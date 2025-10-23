@@ -38,9 +38,11 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center">
-              <Droplet className="w-6 h-6 text-white" fill="white" />
-            </div>
+            <img 
+              src="/images/logo.jpg" 
+              alt="Centre Amine Hijama Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div className={`${language === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-lg font-bold text-gray-900">Centre Amine Hijama</h1>
               <p className="text-xs text-gray-600">مركز أمين للحجامة</p>
