@@ -257,5 +257,5 @@ export const socialLinks = {
   facebook: 'https://www.facebook.com/share/17Bd6gVcgo/',
   phone: 'tel:0695933607',
   email: 'https://mail.google.com/mail/?view=cm&to=centre.amine.hijama@gmail.com',
-  maps: 'https://www.google.com/maps/place/Centre+amine+hijama',
+  maps: 'https://www.google.com/maps/place/Centre+amine+hijama+Casablanca+%2F%D9%85%D8%B1%D9%83%D8%B2+%D8%A3%D9%85%D9%8A%D9%86+%D9%84%D9%84%D8%AD%D8%AC%D8%A7%D9%85%D8%A9+%D8%A7%D9%84%D8%AF%D8%A7%D8%B1+%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1%E2%80%AD/@33.5476603,-7.5999447,683m/data=!3m2!1e3!4b1!4m6!3m5!1s0xda7cd44d267b725:0x8788c15fcf17eb45!8m2!3d33.5476603!4d-7.5999447!16s%2Fg%2F11sf3wfjyl?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D',
 };

@@ -118,7 +118,7 @@ export const Contact: React.FC<ContactProps> = ({ language }) => {
             <Card>
               <CardContent className="p-0">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.5487229898926!2d-7.6478!3d33.5829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2d12345678%3A0x1234567890abcdef!2sCentre%20amine%20hijama!5e0!3m2!1sfr!2sma!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.8!2d-7.5999447!3d33.5476603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd44d267b725:0x8788c15fcf17eb45!2sCentre%20amine%20hijama%20Casablanca!5e0!3m2!1sfr!2sma!4v1729680000000"
                   width="100%"
                   height="400"
                   style={{ border: 0, borderRadius: '0.75rem' }}
