@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Phone, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { Star, Phone, Instagram, Facebook, MessageCircle, MapPin } from 'lucide-react';
 import { Language } from '../lib/types';
 import { translations, socialLinks } from '../lib/translations';
 import { Button } from './ui/Button';
@@ -42,6 +42,12 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
               <a href={socialLinks.phone}>
                 <Button variant="outline">
                   {t.hero.callButton}
+                </Button>
+              </a>
+              <a href={socialLinks.maps} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  {t.hero.locationButton}
                 </Button>
               </a>
             </div>
