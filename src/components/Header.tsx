@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Droplet, Menu, X, Phone, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { Menu, X, Phone, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { Language } from '../lib/types';
 import { translations, socialLinks } from '../lib/translations';
 
