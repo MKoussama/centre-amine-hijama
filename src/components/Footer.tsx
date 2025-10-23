@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
               href={socialLinks.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform"
+              className="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform"
             >
               <MessageCircle className="w-6 h-6 text-white" />
             </a>
@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
 
           <div className="flex justify-center md:justify-end">
             <a href={socialLinks.whatsapp} target="_blank" rel="noopener noreferrer">
-              <Button variant="default" className="bg-green-600 hover:bg-green-700">
+              <Button variant="default" className="bg-teal-600 hover:bg-teal-700">
                 {t.footer.bookButton}
               </Button>
             </a>

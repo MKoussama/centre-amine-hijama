@@ -14,7 +14,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ language }) => {
   const features = [
     {
       icon: Award,
-      gradient: 'from-green-400 to-emerald-500',
+      gradient: 'from-teal-400 to-cyan-500',
       title: t.why.features[0].title,
       description: t.why.features[0].description,
     },
@@ -38,7 +38,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ language }) => {
     },
     {
       icon: Clock,
-      gradient: 'from-green-400 to-teal-500',
+      gradient: 'from-teal-400 to-teal-500',
       title: t.why.features[4].title,
       description: t.why.features[4].description,
     },
@@ -51,13 +51,13 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ language }) => {
   ];
 
   return (
-    <section id="why" className="py-16 lg:py-24 bg-gradient-to-br from-green-50 to-emerald-50">
+    <section id="why" className="py-16 lg:py-24 bg-gradient-to-br from-teal-50 to-cyan-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-12 ${language === 'ar' ? 'text-right' : 'text-left'} lg:text-center`}>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
             {t.why.title}
           </h2>
-          <h3 className="text-2xl lg:text-3xl font-bold text-green-600">
+          <h3 className="text-2xl lg:text-3xl font-bold text-teal-600">
             {t.why.subtitle}
           </h3>
         </div>

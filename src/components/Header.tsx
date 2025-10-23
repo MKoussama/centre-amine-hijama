@@ -52,31 +52,31 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
           <nav className="hidden lg:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('hero')}
-              className="text-gray-700 hover:text-green-600 font-semibold transition-colors"
+              className="text-gray-700 hover:text-teal-600 font-semibold transition-colors"
             >
               {t.nav.home}
             </button>
             <button
               onClick={() => scrollToSection('women')}
-              className="text-gray-700 hover:text-green-600 font-semibold transition-colors"
+              className="text-gray-700 hover:text-teal-600 font-semibold transition-colors"
             >
               {t.nav.women}
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-green-600 font-semibold transition-colors"
+              className="text-gray-700 hover:text-teal-600 font-semibold transition-colors"
             >
               {t.nav.services}
             </button>
             <button
               onClick={() => scrollToSection('why')}
-              className="text-gray-700 hover:text-green-600 font-semibold transition-colors"
+              className="text-gray-700 hover:text-teal-600 font-semibold transition-colors"
             >
               {t.nav.why}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-green-600 font-semibold transition-colors"
+              className="text-gray-700 hover:text-teal-600 font-semibold transition-colors"
             >
               {t.nav.contact}
             </button>
@@ -88,7 +88,7 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
                 href={socialLinks.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-green-600 transition-colors"
+                className="text-gray-600 hover:text-teal-600 transition-colors"
               >
                 <MessageCircle className="w-5 h-5" />
               </a>
@@ -110,7 +110,7 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
               </a>
               <a
                 href={socialLinks.phone}
-                className="text-gray-600 hover:text-green-600 transition-colors"
+                className="text-gray-600 hover:text-teal-600 transition-colors"
               >
                 <Phone className="w-5 h-5" />
               </a>
@@ -118,7 +118,7 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
 
             <button
               onClick={() => setLanguage(language === 'fr' ? 'ar' : 'fr')}
-              className="px-4 py-2 rounded-lg bg-green-50 text-green-600 font-semibold hover:bg-green-100 transition-colors"
+              className="px-4 py-2 rounded-lg bg-teal-50 text-teal-600 font-semibold hover:bg-teal-100 transition-colors"
             >
               {language === 'fr' ? 'العربية' : 'Français'}
             </button>
@@ -138,31 +138,31 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
           <nav className="flex flex-col py-4">
             <button
               onClick={() => scrollToSection('hero')}
-              className="px-6 py-3 text-left text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors"
+              className="px-6 py-3 text-left text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
             >
               {t.nav.home}
             </button>
             <button
               onClick={() => scrollToSection('women')}
-              className="px-6 py-3 text-left text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors"
+              className="px-6 py-3 text-left text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
             >
               {t.nav.women}
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="px-6 py-3 text-left text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors"
+              className="px-6 py-3 text-left text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
             >
               {t.nav.services}
             </button>
             <button
               onClick={() => scrollToSection('why')}
-              className="px-6 py-3 text-left text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors"
+              className="px-6 py-3 text-left text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
             >
               {t.nav.why}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="px-6 py-3 text-left text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors"
+              className="px-6 py-3 text-left text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
             >
               {t.nav.contact}
             </button>
@@ -172,7 +172,7 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
                 href={socialLinks.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-green-600 transition-colors"
+                className="text-gray-600 hover:text-teal-600 transition-colors"
               >
                 <MessageCircle className="w-6 h-6" />
               </a>
@@ -194,7 +194,7 @@ export const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
               </a>
               <a
                 href={socialLinks.phone}
-                className="text-gray-600 hover:text-green-600 transition-colors"
+                className="text-gray-600 hover:text-teal-600 transition-colors"
               >
                 <Phone className="w-6 h-6" />
               </a>

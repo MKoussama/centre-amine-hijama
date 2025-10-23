@@ -46,7 +46,7 @@ export const Services: React.FC<ServicesProps> = ({ language }) => {
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
             {t.services.title}
           </h2>
-          <h3 className="text-2xl lg:text-3xl font-bold text-green-600 mb-4">
+          <h3 className="text-2xl lg:text-3xl font-bold text-teal-600 mb-4">
             {t.services.subtitle}
           </h3>
           <p className="text-lg lg:text-xl text-gray-600">
@@ -58,7 +58,7 @@ export const Services: React.FC<ServicesProps> = ({ language }) => {
           {services.map((service, index) => (
             <Card key={index} className="hover:shadow-2xl">
               <CardHeader>
-                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-green-100 to-emerald-100 rounded-full flex items-center justify-center">
+                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-teal-100 to-cyan-100 rounded-full flex items-center justify-center">
                   <img
                     src={service.icon}
                     alt={service.title}
@@ -75,12 +75,12 @@ export const Services: React.FC<ServicesProps> = ({ language }) => {
                   {service.packs.map((pack: any, packIndex: number) => (
                     <div
                       key={packIndex}
-                      className="p-3 bg-green-50 rounded-lg border border-green-100"
+                      className="p-3 bg-teal-50 rounded-lg border border-teal-100"
                     >
                       <p className={`text-sm text-gray-700 font-medium mb-1 ${language === 'ar' ? 'text-right' : 'text-left'}`}>
                         {pack.name}
                       </p>
-                      <p className="text-lg font-bold text-green-600">{pack.price}</p>
+                      <p className="text-lg font-bold text-teal-600">{pack.price}</p>
                     </div>
                   ))}
                 </div>

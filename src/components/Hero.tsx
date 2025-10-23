@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
   const t = translations[language];
 
   return (
-    <section id="hero" className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50">
+    <section id="hero" className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-teal-50 via-cyan-50 to-teal-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className={`${language === 'ar' ? 'text-right' : 'text-left'}`}>
@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               {t.hero.title}
             </h1>
-            <h2 className="text-3xl lg:text-4xl font-bold text-green-600 mb-6">
+            <h2 className="text-3xl lg:text-4xl font-bold text-teal-600 mb-6">
               {t.hero.subtitle}
             </h2>
 
@@ -48,8 +48,8 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
 
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-green-600" />
-                <a href={socialLinks.phone} className="text-gray-700 font-semibold hover:text-green-600 transition-colors">
+                <Phone className="w-5 h-5 text-teal-600" />
+                <a href={socialLinks.phone} className="text-gray-700 font-semibold hover:text-teal-600 transition-colors">
                   0695933607
                 </a>
               </div>
@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
                   href={socialLinks.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-green-600 hover:scale-110 transition-transform"
+                  className="text-teal-600 hover:scale-110 transition-transform"
                 >
                   <MessageCircle className="w-6 h-6" />
                 </a>

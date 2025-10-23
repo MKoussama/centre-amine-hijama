@@ -23,7 +23,7 @@ export const FloatingButtons: React.FC = () => {
         href={socialLinks.whatsapp}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-teal-600 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
       >
         <MessageCircle className="w-7 h-7 text-white" />
       </a>
