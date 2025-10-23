@@ -84,7 +84,7 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
 
           <div className="relative">
             <img
-              src="/images/hero-image.png"
+              src="/images/hero-image.jpg"
               alt="Centre Amine Hijama"
               className="w-full h-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
